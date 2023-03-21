@@ -305,35 +305,47 @@ color: var(--logo-color-2);
 
 /* customers */
 
+.customers {
+    padding: 120px 0;
+}
+
 .customers-title {
     font-size: 36px;
         line-height: 1.11;
         text-align: center;
         letter-spacing: 0.02em;
         color: var(--logo-color-2);
-        padding-top: 120px;
-        padding-bottom: 72px;
+        margin-bottom: 72px;
 }
 
 .customers-list {
-    padding-bottom: 120px;
     display: flex;
     gap: 24px;
 }
 
-.customers .box {
+
+.customers-link {
     width: 168px;
     height: 88px;
     border: 1px solid #8E8F99;
     border-radius: 4px;
-    fill: #8E8F99;
     display: flex;
     justify-content: center;
     align-items: center;
+    color: #8E8F99;
 }
 
-.customers .box:hover {
-    fill: #404BBF;
+.customers-icon {
+    fill: currentColor;
+}
+
+.customers-link:hover .customers-icon,
+.customers-link:focus .customers-icon {
+    color: #404BBF;
+}
+
+.customers-link:hover,
+.customers-link:focus {
     border: 1px solid #404BBF;
 }
 
