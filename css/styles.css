@@ -381,7 +381,6 @@ color: var(--logo-color-2);
         letter-spacing: 0.02em;
         color: #E7E9FC;
         width: 264px;
-        margin-right: 120px;
 }
 
 .footer-media-text {
@@ -424,6 +423,10 @@ color: var(--logo-color-2);
 .footer-link:hover,
 .footer-link:focus {
     background-color: #31D0AA;
+}
+
+.footer-content {
+    margin-right: 120px;
 }
 
 /* portfolio */
@@ -499,7 +502,7 @@ font-family: 'Roboto', sans-serif;
     }
 
 .border {
-    border-bottom: 1px solid #E7E9FC;
+    border: 1px solid #E7E9FC;
     padding-top: 32px;
     padding-left: 16px;
     padding-bottom: 32px;
